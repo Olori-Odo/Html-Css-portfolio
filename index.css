@@ -1,6 +1,11 @@
 * {
-  width: 100%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
 }
 
 .header {
@@ -14,45 +19,64 @@
   width: 100%;
   height: 75px;
   padding: 20px;
+  position: fixed;
+  top: 0;
 }
 .logo {
   display: flex;
   gap: 10px;
-  margin-left: 50px;
+  margin-left: 100px;
   align-items: center;
 }
 .logo .logo-img {
   width: 50px;
-  height: 40px;
+  height: 50px;
   border-radius: 50px;
   background-color: black;
 }
 .menu-list {
   display: flex;
+  gap: 15px;
+  margin-right: 100px;
   list-style-type: none;
 }
-/* hr {
-  margin-bottom: 50px;
-}  */
+.menu-list .list {
+  display: flex;
+  color: black;
+  text-decoration: none;
+}
+.menu-list .list:hover {
+  background-color: rgb(204, 145, 68);
+  color: white;
+}
 
 .main {
-  /* margin-top: 50px; */
   display: grid;
   justify-content: center;
   width: 100%;
-  padding: 50px;
   background-color: rgba(253, 251, 251, 0.445);
 }
+/* #home {
+  height: 100vh;
+} */
 .akindev {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  padding-top: 80px;
 }
 .profile {
   display: flex;
   justify-content: space-between;
   gap: 50px;
   margin: auto;
+}
+.profile .profile-info {
+  margin: auto;
+}
+.stack {
+  text-align: center;
+  color: brown;
 }
 .photo-container {
   display: flex;
@@ -61,21 +85,84 @@
   border-radius: 15px;
   align-items: center;
   background-color: rgba(157, 160, 160, 0.1);
-  /* width: 300px;
-  height: 350px; */
 }
 .photo {
   border-radius: 50px;
 }
-.menu-list .list {
+
+#about {
   display: flex;
-  gap: 15px;
+  justify-content: center;
+  width: 100%;
+  /* height: 100vh; */
+  text-align: center;
+  padding-top: 100px;
+  margin-top: 10px;
+}
+#about .about-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.break {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#skills-section .skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.skills-heading {
+  text-align: center;
+  padding-top: 100px;
+  margin-top: 20px;
 }
 
 .skill {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
   border-radius: 5px;
   border: 2px solid grey;
+  background-color: burlywood;
+}
+#contact-section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  height: 100vh;
+}
+.contact {
+  text-align: center;
+}
+.form {
+  width: 400px;
+  margin: auto;
+  padding-top: 50px;
+}
+.form label {
+  margin: 5px;
+}
+.form input {
+  padding: 10px;
+}
+.form textarea {
+  margin-top: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.form .submit-btn {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  padding: 10px;
 }

@@ -10,47 +10,105 @@
     <header class="header">
       <nav class="nav">
         <div class="logo">
-          <img class="logo-img" src="./asset/afo-1.png" alt="" />
+          <img class="logo-img" src="./asset/afo-4.png" alt="" />
           <h3>AkinDev</h3>
         </div>
         <div>
           <ul class="menu-list">
             <li><a class="list" href="#home">HOME</a></li>
             <li><a class="list" href="#about">ABOUT</a></li>
-            <li><a class="list" href="#skills">SKILLS</a></li>
-            <li><a class="list" href="#contact">CONTACT</a></li>
+            <li><a class="list" href="#skills-section">SKILLS</a></li>
+            <li><a class="list" href="#contact-section">CONTACT</a></li>
           </ul>
         </div>
       </nav>
+      <div>
+        <hr />
+      </div>
     </header>
-    <hr />
-    <main class="main">
-      <h1 class="akindev">AKINDEV WORLD!</h1>
-      <div class="profile">
-        <div class="photo-container">
-          <img class="photo" src="./asset/afo-2.png" alt="my picture" />
-        </div>
 
-        <div>
-          <h2>Hello, My name is Fatai Akinyemi</h2>
-          <p class="stack">Software Developer</p>
+    <main class="main">
+      <div id="home">
+        <h1 class="akindev">AKINDEV SOLUTIONS!</h1>
+        <div class="profile">
+          <div class="photo-container">
+            <img class="photo" src="./asset/afo-2.png" alt="my picture" />
+          </div>
+
+          <div class="profile-info">
+            <h2>Hello, My name is Fatai Akinyemi</h2>
+            <p class="stack">Software Developer</p>
+          </div>
         </div>
       </div>
+
       <section id="about">
         <div>
           <h1 class="about-tag">ABOUT ME</h1>
-          <img class="about-img" src="./asset/afo-1.png" alt="" />
+          <div class="about-info">
+            <div>
+              <p class="about-p">
+                Proficient in front-end development using HTML, CSS, and
+                JavaScript.
+              </p>
+              <p>Experienced with version control using Git.</p>
+              <p>
+                Skilled in building user interfaces with React.js.
+                <br />Familiarity with Node.js and Jest(for testing).
+              </p>
+              <hr class="break" />
+              <p>My Goals for the next two year!</p>
+              <br />
+              <p class="goals">
+                explore for more experience and opportunities to put what i've
+                learnt into solving real life problems,
+              </p>
+              <p>hence making money to cater for mine and family needs -</p>
+              <p>
+                then learning more about CyberSecurity to solve a life circle of
+                problems in tech.
+              </p>
+            </div>
+            <img class="about-img" src="./asset/afo-1.png" alt="" />
+          </div>
         </div>
       </section>
-      <section id="skills">
-        <div class="skill"></div>
-        <div class="skill"></div>
-        <div class="skill"></div>
-        <div class="skill"></div>
-        <div class="skill"></div>
+
+      <section id="skills-section">
+        <h2 class="skills-heading">SKILLS</h2>
+
+        <div class="skills">
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">JAVASCRIPT</div>
+          <div class="skill">TYPESCRIPT</div>
+          <div class="skill">REACT</div>
+          <div class="skill">GIT</div>
+          <div class="skill">BOOSTRAP</div>
+          <div class="skill">NODE.js</div>
+          <div class="skill">JEST</div>
+          <div class="skill"></div>
+        </div>
       </section>
-      <section id="contact">
-        <h1>CONTACT</h1>
+      <section id="contact-section">
+        <div>
+          <h1 class="contact">CONTACT</h1>
+
+          <form action="" class="form">
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+            <label for="purpose">Purpose</label>
+            <input type="text" id="purpose" />
+            <textarea
+              name="details"
+              id="details"
+              placeholder="write here..."
+              rows="5"
+              cols="25"
+            ></textarea>
+            <button class="submit-btn" type="button">Submit</button>
+          </form>
+        </div>
       </section>
     </main>
     <footer>
