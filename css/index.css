@@ -7,6 +7,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #28a95b;
+  font-size: 1.2em;
 }
 
 .header {
@@ -104,6 +105,7 @@ div.date-time {
   text-align: center;
   padding-top: 100px;
   margin-top: 10px;
+  /* font-size: 1.2em; */
 }
 #about .about-info {
   display: flex;
