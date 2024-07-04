@@ -37,18 +37,18 @@ body {
   border-radius: 50px;
   background-color: black;
 }
-.menu-list {
+.nav-list {
   display: flex;
   gap: 15px;
   margin-right: 100px;
   list-style-type: none;
 }
-.menu-list .list {
+.nav-list .list {
   display: flex;
   color: black;
   text-decoration: none;
 }
-.menu-list .list:hover {
+.nav-list .list:hover {
   background-color: brown;
   color: white;
 }
