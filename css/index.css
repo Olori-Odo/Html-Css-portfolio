@@ -23,6 +23,7 @@ body {
   position: fixed;
   top: 0;
   background-color: #1d8346;
+  color: white;
 }
 
 .logo {
@@ -45,7 +46,7 @@ body {
 }
 .nav-list .list {
   display: flex;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .nav-list .list:hover {
@@ -163,8 +164,8 @@ div.date-time {
 }
 .form .submit-btn {
   width: 150px;
-  height: 50px;
-  width: 80%;
+  height: 30px;
+  width: 30%;
   border: none;
   border-radius: 5px;
   background-color: blue;
