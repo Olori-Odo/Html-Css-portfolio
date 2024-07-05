@@ -13,16 +13,15 @@
       <nav class="nav">
         <div class="logo">
           <img class="logo-img" src="./asset/afo-4.png" alt="" />
-          <h3>AkinDev</h3>
+          <h3 class="dev-title">AkinDev</h3>
         </div>
-        <div>
-          <ul class="nav-list">
-            <li><a class="list" href="#home">HOME</a></li>
-            <li><a class="list" href="#about">ABOUT</a></li>
-            <li><a class="list" href="#skills-section">SKILLS</a></li>
-            <li><a class="list" href="#contact-section">CONTACT</a></li>
-          </ul>
-        </div>
+
+        <ul class="nav-list">
+          <li><a class="list" href="#home">HOME</a></li>
+          <li><a class="list" href="#about">ABOUT</a></li>
+          <li><a class="list" href="#skills-section">SKILLS</a></li>
+          <li><a class="list" href="#contact-section">CONTACT</a></li>
+        </ul>
       </nav>
       <div>
         <hr />
@@ -48,6 +47,8 @@
               data-testid="slackProfilePicture"
               src="./asset/afo-2.png"
               alt="my picture"
+              height="250px"
+              width="220px"
             />
           </div>
 
@@ -135,12 +136,21 @@
     </main>
     <footer>
       <div class="footer">
-        <a id="hngLiink" href="http://hng.tech/learn">HNG link</a>
-        <a id="keyWord" href="http://keyword.dog/">Keyword link</a>
-        <a id="scrapeanyweb" href="http://scrapeanyweb.site/">ScrapeWeb link</a>
+        <a data-testid="hngLink" id="hngLiink" href="http://hng.tech/learn"
+          >HNG link</a
+        >
+        <a data-testid="keywordLink" id="keyWord" href="http://keyword.dog/"
+          >Keyword link</a
+        >
+        <a
+          data-testid="scrapeanywebLink"
+          id="scrapeanyweb"
+          href="http://scrapeanyweb.site/"
+          >ScrapeWeb link</a
+        >
       </div>
       <p>
-        copywrite to:
+        Copywrite to:
         <a href="https://akindev.netlify.app/">AkinDev website</a>
       </p>
     </footer>
