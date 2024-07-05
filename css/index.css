@@ -187,10 +187,14 @@ footer {
   gap: 10px;
 }
 @media screen and (min-width: 270px), (max-width: 680px) {
-  /* body {
-    display: flex;
-    flex: 1;
+  body {
     width: 100%;
     justify-content: center;
-  } */
+  }
+  .main {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(253, 251, 251, 0.445);
+  }
 }
