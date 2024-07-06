@@ -99,29 +99,45 @@ div.date-time {
 .email {
   font-size: 1.4em;
 }
+section #about {
+  font-size: 1.3em;
+  width: 100%;
+  padding: 0 10px;
+}
 section #about .about-tag {
-  margin-top: 50px;
-  padding-top: 50px;
+  padding-top: 100px;
   margin-bottom: 30px;
 }
+section #about .about-info {
+  width: calc(100% - 20px);
+}
+
 .break {
   margin: 10px 0;
 }
 .about-img {
   display: none;
 }
+.skill-img {
+  padding-top: 50px;
+}
 #skills-section {
   margin: 50px;
+  font-size: 1.3em;
 }
 .skills-heading {
   margin-bottom: 20px;
 }
+
 #contact-section {
   display: flex;
   justify-content: center;
   width: 100%;
   text-align: center;
-  height: 100vh;
+  height: calc(100vh - 75px);
+}
+#contact-section .contact-container {
+  padding-top: 80px;
 }
 #contact-section .contact-container h1 {
   margin: 50px;
