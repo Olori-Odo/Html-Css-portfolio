@@ -54,7 +54,7 @@
 
           <div class="profile-info">
             <h2>
-              Hello, My name is
+              <span class="hello">Hello,</span> My name is
               <span data-testid="slackDisplayName">Fatai Akinyemi</span>
             </h2>
             <p style="text-align: center" data-testid="slackEmail">
@@ -62,6 +62,17 @@
             </p>
             <p class="stack">Software Developer</p>
           </div>
+          <div class="profile-info-sm">
+            <h2>
+              <p class="hello">Hello,</p> My name is
+              <span class="name" data-testid="slackDisplayName">Fatai Akinyemi</span>
+            </h2>
+            <p style="text-align: center" class="email" data-testid="slackEmail">
+              Email: ftdot04@gmail.com
+            </p>
+            <p class="stack">Software Developer</p>
+          </div>
+
         </div>
       </div>
 
@@ -96,8 +107,9 @@
           </div>
         </div>
       </section>
-
+      
       <section id="skills-section">
+        <img class="skill-img" src="./asset/afo-1.png" alt="" />
         <h2 class="skills-heading">SKILLS</h2>
 
         <div class="skills">
@@ -129,7 +141,8 @@
               rows="5"
               cols="25"
             ></textarea>
-            <button class="submit-btn" type="button">Submit</button>
+
+            < button class="submit-btn" type="button">Submit</button>
           </form>
         </div>
       </section>
