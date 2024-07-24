@@ -185,36 +185,15 @@ footer {
 }
 
 /*
-.main {
-  display: grid;
-  justify-content: center;
-  width: 100%;
-  background-color: rgba(253, 251, 251, 0.445);
-}
 
-div.date-time {
-  display: flex;
-  gap: 3px;
-  margin-top: 100px;
-}
+
+
 .akindev {
   display: flex;
   justify-content: center;
   padding-top: 30px;
 }
-.profile {
-  display: flex;
-  justify-content: space-between;
-  gap: 50px;
-  margin: auto;
-}
-.profile .profile-info {
-  margin: auto;
-}
-.stack {
-  text-align: center;
-  color: brown;
-}
+
 /* .photo-container {
   display: flex;
   justify-content: center;
@@ -288,7 +267,6 @@ footer {
     position: fixed;
     top: 0;
     background-color: #1d8346;
-    /* background-color: blue; */
     color: white;
   }
 
@@ -319,12 +297,9 @@ footer {
     background-color: brown;
     color: white;
   }
-
-  .main {
-    display: grid;
-    width: 100%;
+  #home {
+    align-self: center;
   }
-
   #about {
     display: flex;
     justify-content: center;
@@ -368,17 +343,28 @@ footer {
     border: 2px solid grey;
     background-color: burlywood;
   }
-}
 
-@media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1000px) {
+  }
+  div.date-time {
+    display: flex;
+    gap: 3px;
+    margin-top: 100px;
+  }
+
+  .akindev {
+    padding-top: 100px;
+  }
+
   .profile {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 50px;
     margin: auto;
+    padding-top: 50px;
   }
-  .profile .profile-info {
-    margin: auto;
+  .profile .profile-info-sm {
+    align-self: center;
   }
   .stack {
     text-align: center;
