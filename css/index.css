@@ -26,7 +26,6 @@ header {
 
 .logo {
   display: grid;
-  /* gap: 5px; */
   align-items: center;
 }
 .logo .logo-img {
@@ -184,78 +183,6 @@ footer {
   gap: 10px;
 }
 
-/*
-
-
-
-.akindev {
-  display: flex;
-  justify-content: center;
-  padding-top: 30px;
-}
-
-/* .photo-container {
-  display: flex;
-  justify-content: center;
-  border: 2px solid rgb(252, 238, 238);
-  border-radius: 15px;
-  align-items: center;
-  background-color: rgba(157, 160, 160, 0.1);
-} */
-/* 
-
-#contact-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  text-align: center;
-  height: 100vh;
-}
-#contact-section h1 {
-  margin-bottom: 50px;
-}
-.form {
-  display: grid;
-}
-.form label {
-  margin: 5px;
-}
-.form input {
-  padding: 10px;
-}
-.form textarea {
-  margin-top: 10px;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-.form .submit-btn {
-  width: 150px;
-  height: 30px;
-  width: 30%;
-  border: none;
-  border-radius: 5px;
-  background-color: blue;
-  color: white;
-  padding: 10px;
-}
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  background-color: rgb(218, 143, 53);
-  width: 100%;
-  color: aliceblue;
-}
-.footer {
-  display: flex;
-  gap: 10px;
-} */
-
 @media screen and (min-width: 768px) {
   .nav {
     display: flex;
@@ -321,7 +248,7 @@ footer {
     margin-bottom: 10px;
   }
 
-  #skills-section .skills {
+  #skills-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -330,7 +257,7 @@ footer {
   .skills-heading {
     text-align: center;
     padding-top: 100px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
 
   .skill {
@@ -356,6 +283,15 @@ footer {
     padding-top: 100px;
   }
 
+  .photo-container {
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(252, 238, 238);
+    border-radius: 15px;
+    align-items: center;
+    background-color: rgba(157, 160, 160, 0.1);
+  }
+
   .profile {
     display: flex;
     justify-content: center;
@@ -370,6 +306,23 @@ footer {
     text-align: center;
     color: brown;
   }
+  #about {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    font-size: 2em !important;
+  }
+  #about .about-tag {
+    width: 50%;
+  }
+  #about .about-info {
+    display: block;
+    width: 50%;
+  }
+  .skill-img {
+    display: none;
+  }
+
   #skills-section .skills {
     display: flex;
     align-items: center;
@@ -390,5 +343,53 @@ footer {
     border-radius: 5px;
     border: 2px solid grey;
     background-color: burlywood;
+  }
+
+  #contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+  }
+  #contact-section h1 {
+    margin-bottom: 50px;
+  }
+  .form {
+    display: grid;
+  }
+  .form label {
+    margin: 5px;
+  }
+  .form input {
+    padding: 10px;
+  }
+  .form textarea {
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .form .submit-btn {
+    width: 150px;
+    height: 30px;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgb(218, 143, 53);
+    width: 100%;
+    color: aliceblue;
   }
 }
