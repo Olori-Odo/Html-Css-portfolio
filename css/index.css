@@ -9,7 +9,6 @@ body {
 }
 
 header {
-  /* background-color: rgb(94, 218, 176); */
   width: 100%;
 }
 .nav {
@@ -106,6 +105,7 @@ section #about {
 section #about .about-tag {
   padding-top: 100px;
   margin-bottom: 30px;
+  margin-top: 20px;
 }
 section #about .about-info {
   width: calc(100% - 20px);
@@ -193,10 +193,12 @@ footer {
     padding: 20px;
     position: fixed;
     top: 0;
-    background-color: #1d8346;
-    color: white;
-  }
 
+    background-color: #deb887;
+  }
+  .main {
+    background-color: #f0fcf6;
+  }
   .logo {
     display: flex;
     gap: 10px;
@@ -204,10 +206,13 @@ footer {
     align-items: center;
   }
   .logo .logo-img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    background-color: black;
+    width: 150px;
+    height: 140px;
+    border-radius: 0%;
+    background-color: transparent;
+  }
+  .dev-title {
+    display: none;
   }
   .nav-list {
     display: flex;
@@ -217,7 +222,7 @@ footer {
   }
   .nav-list .list {
     display: flex;
-    color: white;
+    color: blue;
     text-decoration: none;
   }
   .nav-list .list:hover {
@@ -249,17 +254,23 @@ footer {
   }
 
   #skills-section {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 100vh;
   }
   .skills-heading {
     text-align: center;
-    padding-top: 100px;
-    /* margin-top: 20px; */
   }
-
+  #skills-section .skills,
+  .skills-2 {
+    display: flex;
+  }
+  #skills-section .skills,
+  .skills-2 {
+    margin-bottom: 10px;
+    justify-content: center;
+  }
   .skill {
     display: flex;
     justify-content: center;
@@ -268,7 +279,8 @@ footer {
     height: 100px;
     border-radius: 5px;
     border: 2px solid grey;
-    background-color: burlywood;
+    margin-right: 10px;
+    background-color: #3eb489 !important;
   }
 
   @media screen and (min-width: 1000px) {
@@ -323,18 +335,12 @@ footer {
     display: none;
   }
 
-  #skills-section .skills {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-  }
   .skills-heading {
     text-align: center;
     padding-top: 100px;
     margin-top: 20px;
   }
-  .skill {
+  .skills .skill {
     display: flex;
     justify-content: center;
     align-items: center;
