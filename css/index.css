@@ -198,6 +198,7 @@ footer {
   }
   .main {
     background-color: #f0fcf6;
+    font-size: 1.1em;
   }
   .logo {
     display: flex;
@@ -222,35 +223,51 @@ footer {
   }
   .nav-list .list {
     display: flex;
-    color: blue;
+    color: rgb(13, 13, 70);
     text-decoration: none;
   }
   .nav-list .list:hover {
-    background-color: brown;
+    /* background-color: #3eb489; */
+    background-color: rgb(13, 13, 70);
     color: white;
   }
   #home {
     align-self: center;
+    /* height: calc(100vh - 75px); */
+    height: 100vh;
+  }
+  .akindev {
+    display: none;
+  }
+  .photo-container {
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(252, 238, 238);
+    border-radius: 15px;
+    align-items: center;
+    background-color: rgba(157, 160, 160, 0.1);
+  }
+  .photo {
+    width: 250px;
+    height: 300px;
   }
   #about {
     display: flex;
     justify-content: center;
-    width: 100%;
+    align-items: center;
+    width: 90%;
+    height: 100vh;
     text-align: center;
     padding-top: 100px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
   }
-  #about .about-tag h1 {
-    margin-top: 100px;
+  #about .about-tag {
+    margin-top: 0 !important;
   }
   #about .about-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .break {
-    margin-top: 5px;
-    margin-bottom: 10px;
   }
 
   #skills-section {
@@ -275,8 +292,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 120px;
     border-radius: 5px;
     border: 2px solid grey;
     margin-right: 10px;
@@ -289,19 +306,6 @@ footer {
     display: flex;
     gap: 3px;
     margin-top: 100px;
-  }
-
-  .akindev {
-    padding-top: 100px;
-  }
-
-  .photo-container {
-    display: flex;
-    justify-content: center;
-    border: 2px solid rgb(252, 238, 238);
-    border-radius: 15px;
-    align-items: center;
-    background-color: rgba(157, 160, 160, 0.1);
   }
 
   .profile {
@@ -318,12 +322,7 @@ footer {
     text-align: center;
     color: brown;
   }
-  #about {
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    font-size: 2em !important;
-  }
+
   #about .about-tag {
     width: 50%;
   }
@@ -339,16 +338,6 @@ footer {
     text-align: center;
     padding-top: 100px;
     margin-top: 20px;
-  }
-  .skills .skill {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 5px;
-    border: 2px solid grey;
-    background-color: burlywood;
   }
 
   #contact-section {
@@ -382,7 +371,7 @@ footer {
     width: 30%;
     border: none;
     border-radius: 5px;
-    background-color: blue;
+    background-color: rgb(13, 13, 70);
     color: white;
     padding: 10px;
   }
